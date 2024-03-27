@@ -1,0 +1,18 @@
+.sr-pdf-vertical-margin-adjuster {
+    position: absolute;
+    background: black;
+    width: 100%;
+    cursor: row-resize;
+}
+
+.sr-pdf-vertical-margin {
+    position: absolute;
+    width: 100%;
+    background-color: #ddd;
+    opacity: 0.7;
+}
+
+.sr-pdf-chunk-excluded {
+    position: absolute;
+    backdrop-filter: blur(1px);
+}

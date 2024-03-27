@@ -1,0 +1,7 @@
+2024/03/25-04:56:43.404 825 Reusing MANIFEST /home/imkabir/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/chrome-extension_ipikiaejjblmdopojhpejjmbedhlibno_0.indexeddb.leveldb/MANIFEST-000001
+2024/03/25-04:56:43.405 825 Recovering log #131
+2024/03/25-04:56:43.405 825 Reusing old log /home/imkabir/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/chrome-extension_ipikiaejjblmdopojhpejjmbedhlibno_0.indexeddb.leveldb/000131.log 
+2024/03/25-04:56:43.417 82a Level-0 table #137: started
+2024/03/25-04:56:43.418 82a Level-0 table #137: 680 bytes OK
+2024/03/25-04:56:43.420 82a Delete type=0 #131
+2024/03/25-04:56:43.420 825 Manual compaction at level-0 from '\x00!\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00"\x00\x00\x00' @ 0 : 0; will stop at (end)

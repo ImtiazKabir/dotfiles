@@ -1,0 +1,26 @@
+2024/03/19-23:24:14.927 1509a Reusing MANIFEST /home/imkabir/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/03/19-23:24:14.927 1509a Recovering log #102
+2024/03/19-23:24:14.929 1509a Reusing old log /home/imkabir/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000102.log 
+2024/03/19-23:24:23.134 1509a Level-0 table #107: started
+2024/03/19-23:24:23.139 1509a Level-0 table #107: 444906 bytes OK
+2024/03/19-23:24:23.141 1509a Delete type=0 #102
+2024/03/19-23:24:23.142 1509a Manual compaction at level-0 from '\x00\x17\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x18\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/03/19-23:24:23.142 1509a Manual compaction at level-1 from '\x00\x17\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x18\x00\x00\x00' @ 0 : 0; will stop at '\x00 \x00\x00\xc8\x0e\x00h\x00o\x00t\x00C\x00o\x00n\x00f\x00i\x00g\x00S\x00t\x00o\x00r\x00e' @ 58362 : 1
+2024/03/19-23:24:23.142 1509a Compacting 1@1 + 1@2 files
+2024/03/19-23:24:23.145 1509a Generated table #108@1: 704 keys, 36169 bytes
+2024/03/19-23:24:23.145 1509a Compacted 1@1 + 1@2 files => 36169 bytes
+2024/03/19-23:24:23.146 1509a compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/03/19-23:24:23.146 1509a Delete type=2 #107
+2024/03/19-23:24:23.147 15097 Manual compaction at level-1 from '\x00 \x00\x00\xc8\x0e\x00h\x00o\x00t\x00C\x00o\x00n\x00f\x00i\x00g\x00S\x00t\x00o\x00r\x00e' @ 58362 : 1 .. '\x00\x18\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/03/19-23:24:24.122 1509d Level-0 table #110: started
+2024/03/19-23:24:24.123 1509d Level-0 table #110: 15655 bytes OK
+2024/03/19-23:24:24.125 1509d Delete type=0 #106
+2024/03/19-23:24:24.125 1509d Delete type=2 #104
+2024/03/19-23:24:24.125 1509d Manual compaction at level-0 from '\x00\x18\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x19\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/03/19-23:24:24.126 1509d Manual compaction at level-1 from '\x00\x18\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x19\x00\x00\x00' @ 0 : 0; will stop at '\x00 \x02\x1f\x03\x00PV\xe1{\xe5xB\x00\x03\x00\x00\x00\x00\x00\x00\xf0?' @ 58530 : 1
+2024/03/19-23:24:24.126 1509d Compacting 1@1 + 1@2 files
+2024/03/19-23:24:24.128 1509d Generated table #111@1: 494 keys, 32054 bytes
+2024/03/19-23:24:24.128 1509d Compacted 1@1 + 1@2 files => 32054 bytes
+2024/03/19-23:24:24.130 1509d compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/03/19-23:24:24.131 1509d Delete type=2 #110
+2024/03/19-23:24:24.131 1509d Manual compaction at level-1 from '\x00 \x02\x1f\x03\x00PV\xe1{\xe5xB\x00\x03\x00\x00\x00\x00\x00\x00\xf0?' @ 58530 : 1 .. '\x00\x19\x00\x00\x00' @ 0 : 0; will stop at (end)

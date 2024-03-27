@@ -1,0 +1,12 @@
+2024/03/25-04:39:48.301 4 Reusing MANIFEST /home/imkabir/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/MANIFEST-000001
+2024/03/25-04:39:48.302 4 Recovering log #306
+2024/03/25-04:39:48.303 4 Reusing old log /home/imkabir/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/000306.log 
+2024/03/25-04:40:25.814 4 Level-0 table #312: started
+2024/03/25-04:40:25.825 4 Level-0 table #312: 44731 bytes OK
+2024/03/25-04:40:25.828 4 Delete type=0 #306
+2024/03/25-04:47:00.713 4 Level-0 table #314: started
+2024/03/25-04:47:00.729 4 Level-0 table #314: 242413 bytes OK
+2024/03/25-04:47:00.740 4 Delete type=0 #311
+2024/03/25-04:58:23.819 6 Level-0 table #316: started
+2024/03/25-04:58:23.833 6 Level-0 table #316: 66155 bytes OK
+2024/03/25-04:58:23.835 6 Delete type=0 #313

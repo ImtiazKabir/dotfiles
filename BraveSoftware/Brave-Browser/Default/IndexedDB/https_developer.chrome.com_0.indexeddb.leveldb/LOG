@@ -1,0 +1,6 @@
+2024/03/15-22:16:48.137 e43f Creating DB /home/imkabir/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_developer.chrome.com_0.indexeddb.leveldb since it was missing.
+2024/03/15-22:16:48.144 e43f Reusing MANIFEST /home/imkabir/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_developer.chrome.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/03/15-23:59:41.871 e440 Level-0 table #5: started
+2024/03/15-23:59:41.872 e440 Level-0 table #5: 1868 bytes OK
+2024/03/15-23:59:41.874 e440 Delete type=0 #3
+2024/03/15-23:59:41.874 e440 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

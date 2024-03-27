@@ -1,0 +1,15 @@
+2024/03/25-04:39:48.485 4 Reusing MANIFEST /home/imkabir/.config/BraveSoftware/Brave-Browser/Default/Session Storage/MANIFEST-000001
+2024/03/25-04:39:48.486 4 Recovering log #73
+2024/03/25-04:39:48.486 4 Reusing old log /home/imkabir/.config/BraveSoftware/Brave-Browser/Default/Session Storage/000073.log 
+2024/03/25-04:55:27.346 6 Level-0 table #77: started
+2024/03/25-04:55:27.356 6 Level-0 table #77: 98992 bytes OK
+2024/03/25-04:55:27.359 6 Delete type=0 #73
+2024/03/25-04:55:27.359 6 Compacting 4@0 + 1@1 files
+2024/03/25-04:55:27.364 6 Generated table #78@0: 2711 keys, 133878 bytes
+2024/03/25-04:55:27.364 6 Compacted 4@0 + 1@1 files => 133878 bytes
+2024/03/25-04:55:27.366 6 compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/03/25-04:55:27.366 6 Delete type=2 #71
+2024/03/25-04:55:27.366 6 Delete type=2 #68
+2024/03/25-04:55:27.366 6 Delete type=2 #65
+2024/03/25-04:55:27.366 6 Delete type=2 #77
+2024/03/25-04:55:27.366 6 Delete type=2 #74

@@ -1,0 +1,6 @@
+2024/03/13-20:48:27.284 70e Creating DB /home/imkabir/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb since it was missing.
+2024/03/13-20:48:27.299 70e Reusing MANIFEST /home/imkabir/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/03/13-22:19:21.247 70f Level-0 table #5: started
+2024/03/13-22:19:21.249 70f Level-0 table #5: 2142 bytes OK
+2024/03/13-22:19:21.250 70f Delete type=0 #3
+2024/03/13-22:19:21.250 70f Manual compaction at level-0 from (begin) .. (end); will stop at (end)

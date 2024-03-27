@@ -1,0 +1,1 @@
+var MIXPANEL_CUSTOM_LIB_URL = "../../mixpanel.min.js";

@@ -1,0 +1,400 @@
+@charset "utf-8";
+
+// Import a Google Font
+@import url('https://fonts.googleapis.com/css?family=Sen:400,700|Merriweather:400,700');
+
+// Set your brand colors
+$purple: #8A4D76;
+$pink: #FA7C91;
+$brown: #545547;
+$beige-light: #D0D1CD;
+$beige-lighter: #EFF0EB;
+$teal: #244e52;
+$turquoise: #46a1b6;
+$lime: #bed562;
+
+// Update Bulma's global variables
+$family-sans-serif: "Sen", sans-serif;
+$grey-dark: $brown; // text
+$grey-light: $beige-light; // border hover
+$primary: $teal;
+$link: $turquoise;
+$widescreen-enabled: false;
+$fullhd-enabled: false;
+
+// Update some of Bulma's component variables
+$body-background-color: $beige-lighter;
+$control-border-width: 2px;
+
+
+// Import only what you need from Bulma
+@import "../../../../node_modules/bulma/sass/utilities/_all.sass";
+@import "../../../../node_modules/bulma/sass/base/_all.sass";
+@import "../../../../node_modules/bulma/sass/grid/columns.sass";
+@import "../../../../node_modules/bulma/sass/grid/tiles.sass";
+@import "../../../../node_modules/bulma/sass/elements/button.sass";
+@import "../../../../node_modules/bulma/sass/elements/container.sass";
+@import "../../../../node_modules/bulma/sass/elements/title.sass";
+@import "../../../../node_modules/bulma/sass/elements/icon.sass";
+@import "../../../../node_modules/bulma/sass/elements/table.sass";
+@import "../../../../node_modules/bulma/sass/elements/box.sass";
+@import "../../../../node_modules/bulma/sass/elements/tag.sass";
+@import "../../../../node_modules/bulma/sass/form/_all.sass";
+@import "../../../../node_modules/bulma/sass/components/navbar.sass";
+@import "../../../../node_modules/bulma/sass/components/menu.sass";
+@import "../../../../node_modules/bulma/sass/components/level.sass";
+@import "../../../../node_modules/bulma/sass/components/message.sass";
+@import "../../../../node_modules/bulma/sass/layout/hero.sass";
+@import "../../../../node_modules/bulma/sass/layout/section.sass";
+@import "../../../../node_modules/bulma/sass/layout/footer.sass";
+
+@import "../../../../node_modules/bulma-switch/src/sass/index.sass";
+@import "../../../../node_modules/bulma-slider/src/sass/index.sass";
+
+// Custom global styles
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Merriweather", serif;
+}
+
+kbd {
+  font-family: monospace !important;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 0.1em 0.5em !important;
+  margin: 0 0.2em;
+  box-shadow: 0 1px 0px rgba(0, 0, 0, 0.2), 0 0 0 2px #fff inset;
+  background-color: #f7f7f7;
+  color: #333;
+}
+
+.overflow-auto {
+  overflow: auto !important;
+}
+
+// fonts
+@font-face {
+  font-family: "Bookerly";
+  src: url("fonts/Bookerly-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Garamond";
+  src: url("fonts/GaramondPro-Regular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Georgia";
+  src: url("fonts/Georgia-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("fonts/HelveticaNeue-Regular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Merriweather";
+  src: url("fonts/Merriweather-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Minion";
+  src: url("fonts/MinionPro-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("fonts/OpenSans-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Tisa";
+  src: url("fonts/TisaPro-Regular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Dyslexie";
+  src: url("fonts/Dyslexie-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Arial";
+  src: url("fonts/Arial.ttf") format("truetype");
+}
+
+.button {
+  border-radius: 50px;
+  text-decoration: none;
+}
+.button.is-secondary {
+  background-color: transparent;
+  // border: 2px solid white;
+  // color: white;
+  border: 2px solid;
+  
+  &:hover {
+    transform: scale(1.02);
+  }
+}
+.button.is-bold {
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+
+/* CUSTOM SPECIFIC STYLES */
+
+/* control styles not in styles.css */
+#wpm-group {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+
+  #wpm-calibrate {
+    margin-left: 5px;
+  }
+}
+
+/* onboarding tutorial */
+.animated.wave {
+  animation-name: wave-animation;
+  /* Refers to the name of your @keyframes element below */
+  animation-duration: 2.5s;
+  /* Change to speed up or slow down */
+  animation-iteration-count: infinite;
+  /* Never stop waving :) */
+  transform-origin: 70% 70%;
+  /* Pivot around the bottom-left palm */
+  display: inline-block;
+}
+
+@keyframes wave-animation {
+  0% {
+    transform: rotate(0.0deg)
+  }
+
+  10% {
+    transform: rotate(14.0deg)
+  }
+
+  /* The following five values can be played with to make the waving more or less extreme */
+  20% {
+    transform: rotate(-8.0deg)
+  }
+
+  30% {
+    transform: rotate(14.0deg)
+  }
+
+  40% {
+    transform: rotate(-4.0deg)
+  }
+
+  50% {
+    transform: rotate(10.0deg)
+  }
+
+  60% {
+    transform: rotate(0.0deg)
+  }
+
+  /* Reset for the last half to pause */
+  100% {
+    transform: rotate(0.0deg)
+  }
+}
+
+.shepherd-text {
+  p {
+    margin-bottom: 1rem;
+  }
+
+  b {
+    font-weight: bold;
+  }
+}
+
+.shepherd-element[data-popper-placement^="top"] {
+  margin-bottom: 20px !important;
+}
+
+.shepherd-element[data-popper-placement^="bottom"] {
+  margin-top: 20px !important;
+}
+
+.shepherd-header {
+  padding-top: 0;
+}
+
+.shepherd-text {
+  padding-top: 0;
+  overflow: hidden;
+}
+
+.shepherd-button-primary {
+  font-weight: bold;
+}
+
+.shepherd-footer-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 6px;
+}
+
+.shepherd-footer {
+  align-items: center;
+  column-gap: 2rem;
+
+  .shepherd-progress-bar {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    column-gap: 1rem;
+    color: #333 !important;
+    font-size: 12px;
+
+    progress {
+      margin: 0 !important;
+      width: 100%;
+      min-width: 2rem;
+    }
+  }
+}
+
+.hint {
+  margin-top: 1rem;
+  font-size: 14px;
+  font-style: italic;
+  background: #efefef;
+  border-radius: 5px;
+  padding: 5px;
+
+}
+
+/* listen, text-to-speech, options styling */
+.voice {
+  .voice-end-matter {
+    display: flex;
+    align-items: center;
+  }
+}
+
+#listen-toggle {
+  margin-bottom: 20px;
+}
+
+#voices-box {
+  max-height: 300px;
+  overflow-y: scroll;
+
+  >* {
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+  }
+
+  .subtitle {
+    font-size: 14px;
+  }
+
+  #current-voice {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    border: 3px solid #eee;
+    background: #eee;
+    border-radius: 6px;
+  }
+
+  #voices {
+    display: flex;
+    flex-direction: column;
+
+    .voice {
+      position: relative;
+
+      &:hover {
+        background-color: #eee;
+      }
+
+      .radio {
+        width: 100%;
+        position: relative;
+        display: inline-block;
+
+        input[type='radio'] {
+          opacity: 0;
+          position: fixed;
+          width: 0;
+        }
+
+        input[type='radio']:checked+.radio-text {
+          -webkit-box-shadow: inset 0px 0px 0px 3px #ddd;
+          -moz-box-shadow: inset 0px 0px 0px 3px #ddd;
+          box-shadow: inset 0px 0px 0px 3px #ddd;
+          border-radius: 6px;
+        }
+
+        .radio-text {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          width: 100%;
+          padding: 10px;
+
+        }
+      }
+
+
+
+    }
+  }
+}
+
+/* help / quicktips */
+#help-div {
+  padding: 10px;
+  font-size: 11px;
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  min-width: 600px;
+}
+
+#help-div h1 {
+  font-size: 12px;
+  font-weight: 700;
+}
+
+#hotkey-quicktips {
+  display: grid;
+  grid-template-columns: 0.5fr 0.5fr 0.5fr;
+  grid-gap: 5px;
+
+  .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    column-gap: 20px;
+  }
+}
+
+/* toasts */
+.toastify {
+  display: flex;
+  padding: 10px 5px 10px 15px;
+  background: inherit;
+  border: 1px solid rgba(255, 255, 255, .1);
+  border-radius: 50px;
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+  -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+}
